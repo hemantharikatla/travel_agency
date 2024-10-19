@@ -1,0 +1,159 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: century 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.logo img{
+    float:left;
+    width: 300px;
+    height:100px;
+    border-radius: 10px;
+}
+.main{
+    margin:auto;
+    padding:2px;
+    height: 100px;
+    background-color:transparent;
+}
+header{   
+    height: 100vh;
+    background-size:cover ;
+    background-position: center;
+}
+.ul1{
+    float:left;
+    list-style-type: none;
+}
+.ul1 li{
+    display: inline-block;
+    margin-top: 30px;
+    margin-left:25px;
+    font-size: 16px;
+}
+.ul1 li a{
+    text-decoration: none;
+    padding: 6px 20px;
+    color: cornsilk;
+    background-color:transparent;
+    border: 1px solid cornsilk; 
+    border-radius: 10px;
+}
+ .ul1 li a:hover{
+    color:black;
+    background-color:rgb(248, 115, 19) ;
+    transition: 0.4s ease;
+    border: 1px solid black;
+}
+.box{
+    float:left;
+    display:flex;
+    height:26px;
+    cursor:pointer;
+    margin-top:23px;
+    margin-left:280px;
+    padding: 5px 10px;
+    background-color: cornsilk;
+    border-radius: 30px;
+    box-shadow: 0px 10px 25px rgba(0,0,0,0.3);
+}
+.box:hover input{
+    width:200px;
+}
+.box input{
+    width:0;
+    outline:none;
+    border: none;
+    transition:0.5;
+    background-color: transparent;
+    font-weight: 600;
+}
+.fas img{
+    height: 25px;width: 25px;
+}
+.ul2{
+    float:right;
+    list-style-type: none;
+}
+.ul2 li{
+    display: inline-block;
+    margin-top: 23px; 
+}
+.ul2 li a{
+    text-decoration: none;
+}
+.btn1 , .btn2{
+    font-size: 15px;
+    padding: 6px 20px;
+    color: black;
+    border: 1px solid black; 
+    border-radius: 10px;
+    box-shadow: 1px 1px 20px 2px black;
+    cursor: pointer;
+}
+.btn1{
+    background-color:cornsilk;
+}
+.btn2{
+    background-color:rgb(120, 120, 244);
+}
+.btn1:hover ,.btn2:hover{
+    border:1px solid cornsilk;
+    transition: 0.2s ease;
+}
+.btn1:active, .btn2:active{
+    transform: scale(0.99);
+}
+body{
+    background-image: url('travelmain2.jpg.jpg');
+    background-position: center;
+    background-size:cover;
+}
+.middle{
+    width:800px;
+    height:400px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    border-radius: 10px;
+    transform: translate(-50%,-50%);
+    box-shadow: 1px 1px 90px 10px black;
+    color:cornsilk;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.p1, .p3{
+    text-align: center;
+    padding:10px;
+    font-size: 80px;
+}
+.p2{
+    text-align: center;
+    padding:7px;
+    font-size: 60px;
+}
+.btn3{
+    position: absolute;
+    font-size: 20px;
+    top:65%;
+    left:36%;
+    padding: 6px 20px;
+    color: cornsilk;
+    background-color:rgb(248, 115, 19);
+    border: 1px solid cornsilk; 
+    border-radius: 30px;
+    box-shadow: 1px 1px 20px 4px black;
+    cursor: pointer;
+
+}
+.btn3:hover{
+    color:black;
+    font-size: 21px;
+    background-color:rgb(248, 115, 19) ;
+    transition: 0.3s ease;
+    border: 1px solid black;
+}
+.btn3:active{
+    transform: scale(0.98);
+}
+.p3{
+    color:rgb(248, 115, 19) ;
+}

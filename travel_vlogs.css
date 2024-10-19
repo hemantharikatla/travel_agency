@@ -1,0 +1,133 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: century 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.logo img{
+    float:left;
+    width: 300px;
+    height:100px;
+    border-radius: 10px;
+}
+.main{
+    margin:auto;
+    padding:2px;
+    height: 100px;
+    background-color:rgb(248, 115, 19) ;
+}
+header{   
+    height: 100vh;
+    background-size:cover ;
+    background-position: center;
+}
+.ul1{
+    float:left;
+    list-style-type: none;
+}
+.ul1 li{
+    display: inline-block;
+    margin-top: 30px;
+    margin-left:25px;
+    font-size: 16px;
+}
+.ul1 li a{
+    text-decoration: none;
+    padding: 6px 20px;
+    color: cornsilk;
+    background-color:transparent;
+    border: 1px solid cornsilk; 
+    border-radius: 10px;
+}
+ .ul1 li a:hover{
+    color:black;
+    background-color:cornsilk;
+    transition: 0.4s ease;
+    border: 1px solid black;
+}
+.box{
+    float:left;
+    display:flex;
+    height:26px;
+    cursor:pointer;
+    margin-top:23px;
+    margin-left:30px;
+    padding: 5px 10px;
+    background-color: cornsilk;
+    border-radius: 30px;
+
+}
+.box:hover input{
+    width:340px;
+}
+.box input{
+    width:0;
+    outline:none;
+    border: none;
+    transition:0.5;
+    background-color: transparent;
+    font-weight: 600;
+}
+.fas img{
+    height: 25px;width: 25px;
+}
+.ul2{
+    float:right;
+    list-style-type: none;
+}
+.ul2 li{
+    display: inline-block;
+    margin-top: 23px; 
+}
+.ul2 li a{
+    text-decoration: none;
+}
+.btn1 , .btn2{
+    font-size: 15px;
+    padding: 6px 20px;
+    color: black;
+    border: 1px solid black; 
+    border-radius: 10px;
+    cursor: pointer;
+}
+.btn1{
+    background-color:cornsilk;
+}
+.btn2{
+    background-color:rgb(120, 120, 244);
+}
+.btn1:hover ,.btn2:hover{
+    border:1px solid cornsilk;
+    transition: 0.2s ease;
+}
+.btn1:active, .btn2:active{
+    transform: scale(0.99);
+}
+
+.videos embed{
+   justify-content: center;
+}
+.video1,.video2,.video3,.video4{
+    width:400px;
+    height: 250px;
+    float: left;
+    display: inline;
+    margin-left: 200px;
+    margin-bottom: 40px;
+    transform: translate(15%,20%);
+    box-shadow: 1px 1px 10px 8px rgb(220, 219, 219);
+    border-radius: 10px;
+}
+.video1 embed,.video2 embed,.video3 embed,.video4 embed{
+    height: 85%;
+    width:100%;
+}
+.video1 p,.video2 p,.video3 p,.video4 p{
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content:baseline;
+    text-align: center;
+    height:15%;
+    padding:4px 0px;
+    color: cornsilk;
+    background-color: rgb(248, 115, 19);
+}

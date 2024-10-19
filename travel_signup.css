@@ -1,0 +1,118 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: century 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.logo img{
+    float:left;
+    width: 300px;
+    height:100px;
+    border-radius: 10px;
+}
+.main{
+    margin:auto;
+    padding:2px;
+    height: 100px;
+    background-color:rgb(248, 115, 19);
+}
+header{   
+    height: 100vh;
+    background-size:cover ;
+    background-position: center;
+}
+.ul1{
+    float:left;
+    list-style-type: none;
+}
+.ul1 li{
+    display: inline-block;
+    margin-top: 30px;
+    margin-left:25px;
+    font-size: 16px;
+}
+.ul1 li a{
+    text-decoration: none;
+    padding: 6px 20px;
+    color: cornsilk;
+    background-color:transparent;
+    border: 1px solid cornsilk; 
+    border-radius: 10px;
+    cursor: pointer;
+}
+ .ul1 li a:hover{
+    color:black;
+    background-color:cornsilk;
+    text-size-adjust: 20px;
+    transition: 0.4s ease;
+    border: 1px solid black;
+}
+.box{
+    float:left;
+    display:flex;
+    height:26px;
+    cursor:pointer;
+    margin-top:23px;
+    margin-left:30px;
+    padding: 5px 10px;
+    background-color: cornsilk;
+    border-radius: 30px;
+}
+.box:hover input{
+    width:340px;
+}
+.box input{
+    width:0;
+    outline:none;
+    border: none;
+    transition:0.5;
+    background-color: transparent;
+    font-weight: 600;
+}
+.fas img{
+    height: 25px;width: 25px;
+}
+.signupform{
+    width:400px;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    text-align:center;
+}
+.h1{
+    color:black;
+    background-color: rgb(248, 115, 19);
+    background-size:auto;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+}
+.ba{
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+
+}
+button{
+    font-size: 15px;
+    padding: 6px 20px;
+    color: black;
+    background-color:rgb(248, 115, 19);
+    border: 1px solid black; border-radius: 10px;
+    cursor: pointer;
+}
+button:hover{
+    color:cornsilk;
+    border:1px solid cornsilk;
+    transition: 0.2s ease;
+}
+label{
+    font-size: 20px;
+}
+input{
+    font-size: 16px;
+    padding: 1px;
+    border-radius: 10px;
+}

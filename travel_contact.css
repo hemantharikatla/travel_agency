@@ -1,0 +1,205 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: century 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.logo img{
+    float:left;
+    width: 300px;
+    height:100px;
+    border-radius: 10px;
+}
+.main{
+    margin:auto;
+    padding:2px;
+    height: 100px;
+    background-color:rgb(248, 115, 19) ;
+}
+header{   
+    height: 100vh;
+    background-size:cover ;
+    background-position: center;
+}
+.ul1{
+    float:left;
+    list-style-type: none;
+}
+.ul1 li{
+    display: inline-block;
+    margin-top: 30px;
+    margin-left:25px;
+    font-size: 16px;
+}
+.ul1 li a{
+    text-decoration: none;
+    padding: 6px 20px;
+    color: cornsilk;
+    background-color:transparent;
+    border: 1px solid cornsilk; 
+    border-radius: 10px;
+}
+ .ul1 li a:hover{
+    color:black;
+    background-color:cornsilk;
+    transition: 0.4s ease;
+    border: 1px solid black;
+}
+.box{
+    float:left;
+    display:flex;
+    height:26px;
+    cursor:pointer;
+    margin-top:23px;
+    margin-left:30px;
+    padding: 5px 10px;
+    background-color: cornsilk;
+    border-radius: 30px;
+}
+.box:hover input{
+    width:340px;
+}
+.box input{
+    width:0;
+    outline:none;
+    border: none;
+    transition:0.5;
+    background-color: transparent;
+    font-weight: 600;
+}
+.fas img{
+    height: 25px;width: 25px;
+}
+.ul2{
+    float:right;
+    list-style-type: none;
+}
+.ul2 li{
+    display: inline-block;
+    margin-top: 23px; 
+}
+.ul2 li a{
+    text-decoration: none;
+}
+.btn1 , .btn2{
+    font-size: 15px;
+    padding: 6px 20px;
+    color: black;
+    border: 1px solid black; 
+    border-radius: 10px;
+    cursor: pointer;
+}
+.btn1{
+    background-color:cornsilk;
+}
+.btn2{
+    background-color:rgb(120, 120, 244);
+}
+.btn1:hover ,.btn2:hover{
+    border:1px solid cornsilk;
+    transition: 0.2s ease;
+}
+.btn1:active, .btn2:active{
+    transform: scale(0.99);
+}
+
+
+.cimg{
+    display:inline-block;
+    height: 71%;
+    width:61%;
+    left:5%;
+}
+.cimg p{
+    text-align: center;
+    font-size: 30px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(83, 83, 153);
+}
+.cimg img{
+    height:90%;
+    width:90%;
+    display: block;
+}
+.cform{
+    float:right;
+    height:68%;
+    width:38%;
+    text-align: center;
+}
+.cform p{
+    height:15%;
+    width:100%;
+    font-size: 40px;
+    color:rgb(140, 133, 133);
+    text-shadow: 2px  ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-bottom: 1px solid black;
+}
+input{
+    border:none;
+    outline:none;
+    font-size: 20px;
+    border-bottom: 1px solid black ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+textarea{
+    font-size: 20px;
+    color: rgb(83, 83, 153);
+    border: 1px solid black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+button{
+    background-color: rgb(120, 120, 244);
+    font-size: 20px;
+    padding: 6px 20px;
+    color: black;
+    border: 1px solid black; 
+    cursor: pointer;
+    border-radius: 10px;
+}    
+button:hover{
+    border:1px solid cornsilk;
+    transition: 0.2s ease;
+}
+button:active{
+    transform: scale(0.99);
+}
+.bottom{
+    background-color: rgb(248, 115, 19);
+    height:15%;
+    position: absolute;
+    bottom:0;
+    width:100%;
+}
+.p1{
+    top: 2px;
+    color:cornsilk;
+    font-size: 40px;
+    text-align: center;
+}
+hr{
+    margin:3px;
+}
+.bottom img{
+    height:25px;
+    width:25px;
+    margin-top: 8px;
+    margin-left:200px;
+}
+.blink{
+    text-decoration: none;
+    font-size:18px;
+    margin-top:5px;
+    margin-left: 5px;
+    padding:6px 10px;
+    color:cornsilk;
+    border: 1px solid cornsilk;
+    border-radius: 10px;
+    background-color: transparent;
+}
+.blink:hover{
+    color:black;
+    background-color: cornsilk;
+    border:1px solid black;
+    transition: 0.4s ease;
+}
